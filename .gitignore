@@ -1,0 +1,47 @@
+## .NET build
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+## Visual Studio / Rider / JetBrains
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.iml
+*.rsuser
+
+## Test & coverage (xUnit, coverlet, CI)
+[Tt]est[Rr]esults/
+*.trx
+coverage/
+coverage*.json
+coverage*.xml
+*.coverage
+*.coveragexml
+
+## Cursor — локальное состояние IDE; правила проекта (.cursor/rules/) коммитим
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
+.cursor/
+## OS
+.DS_Store
+Thumbs.db
+
+## Secrets & local config overrides
+appsettings.*.local.json
+*.env
+.env.*
+!.env.example
+
+## Local-only docs (не пушить в remote)
+BookIt_Backend_Implementation_Plan.NET.md
+BookIt_Master_Plan.NET.md
