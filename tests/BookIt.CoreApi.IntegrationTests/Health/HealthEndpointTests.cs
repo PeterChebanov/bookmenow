@@ -1,5 +1,5 @@
 using System.Net.Http.Json;
-using BookIt.CoreApi.Controllers;
+using BookIt.CoreApi.Application.Health;
 using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace BookIt.CoreApi.IntegrationTests.Health;
